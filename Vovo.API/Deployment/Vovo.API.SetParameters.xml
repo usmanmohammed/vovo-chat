@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <setParameter name="IIS Web Application Name" value="VovoAPI" />
+  <setParameter name="VovoAPIContext-Web.config Connection String" value="Data Source=.\;Initial Catalog=VovoDb;Integrated Security=True;MultipleActiveResultSets=True" />
+</parameters>

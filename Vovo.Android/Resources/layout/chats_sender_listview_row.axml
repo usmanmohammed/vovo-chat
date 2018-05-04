@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.percent.PercentFrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#e0e0e0">
+    <TextView
+        android:text="Using eithsser the event-based listener or a custom implementation, we can access the open socket and start sending messages"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:paddingLeft="5dp"
+        android:textColor="#444"
+        app:layout_widthPercent="100%"
+        app:layout_heightPercent="100%"
+        app:layout_marginLeftPercent="20%"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/message_sender"
+        android:gravity="left" />
+</android.support.percent.PercentFrameLayout>

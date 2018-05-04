@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<component format="1" id="googleplayservices-nearby" is-shell="true">
+  <name>Google Play Services - Nearby</name>
+  <publisher>Xamarin Inc.</publisher>
+  <publisher-url>http://xamarin.com</publisher-url>
+  <version>42.1001.0.0</version>
+  <summary>Build simple interactions between nearby devices and people.</summary>
+  <packages>
+    <package id="Xamarin.GooglePlayServices.Nearby" version="42.1001.0" framework="android" />
+  </packages>
+  <samples>
+    <sample id="NearbySample">
+      <name>Nearby Sample</name>
+      <summary>Nearby Sample</summary>
+    </sample>
+  </samples>
+</component>

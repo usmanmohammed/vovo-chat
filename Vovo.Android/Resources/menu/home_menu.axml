@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto"
+      app:color="#fff"
+      android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:minHeight="?attr/actionBarSize"
+    android:background="?attr/colorPrimary">
+  <item
+       android:id="@+id/menu_add_person"
+       android:icon="@drawable/ic_person_add_white_24dp"
+       app:showAsAction="ifRoom"
+       android:title="Add Friend" />
+  <item
+       android:id="@+id/menu_search"
+       android:icon="@drawable/ic_search_white_24dp"
+       app:showAsAction="ifRoom"
+       android:title="Search" />
+</menu>

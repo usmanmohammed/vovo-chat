@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+  <group android:checkableBehavior="single">
+    <item
+        android:id="@+id/profile_activity"
+        android:icon="@drawable/ic_person_black_24dp"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:title="Profile" />
+    <item
+        android:id="@+id/changePassword_activity"
+        android:icon="@drawable/ic_vpn_key_black_24dp"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:title="Change Password" />
+    <item
+        android:id="@+id/settings_activity"
+        android:icon="@drawable/ic_settings_black_24dp"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:title="Settings" />
+    <item
+      android:id="@+id/logout_activity"
+      android:icon="@drawable/ic_power_settings_new_black_24dp"
+              android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+      android:title="Logout" />
+  </group>
+</menu>
